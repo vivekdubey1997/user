@@ -1,0 +1,27 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: #f5f5f5; /* Light gray background for light theme */
+}
+
+body.dark-theme {
+  background-color: #2b2b2b; /* Dark gray background for dark theme */
+}
+
+/* ... (rest of the CSS code remains the same with some color adjustments) */
+
+.form-container {
+  background-color: #fff; /* White background for light theme */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-theme .form-container {
+  background-color: #333; /* Dark gray background for dark theme */
+}
+
+/* ... (rest of the CSS code remains the same with some color adjustments) */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
